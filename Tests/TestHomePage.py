@@ -1,6 +1,5 @@
 import time
 from PageObjects.HomePage import HomePage
-import pytest
 
 
 class TestHomePage:
