@@ -6,7 +6,7 @@ class SignIn:
     button_get_started_xpath = "//span[contains(text(), 'Sign in')]//ancestor::div[contains(@class, " \
                                "'NavBarRight')]//button[text()='Get started'] "
 
-    text_get_started_xpath = "//h2[contains(text(), 'Let’s get you started')]"
+    text_get_started_xpath = "//h2[contains(text(), 'Let’s get you started hello')]"
 
     def click_button_get_started(self):
         assert self.driver.find_element_by_xpath(self.button_get_started_xpath)
